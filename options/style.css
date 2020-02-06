@@ -1,0 +1,72 @@
+.section {
+  padding: 10px 5px;
+}
+
+body {
+  background: #eee;
+}
+
+hr {
+  border: 1px solid #cccccc;
+  width: 100%;
+}
+
+.status {
+  text-align: center;
+}
+
+.theme table {
+  width: 100%;
+}
+
+.theme .theme-moon {
+  color: #9390ac;
+  background-color: #3a3944;
+}
+
+.theme .theme-light {
+  color: #292929;
+  background-color: #ececec;
+}
+
+.theme .theme-dark {
+  color: #a1a1a1;
+  background-color: #323232;
+}
+
+.theme .theme-sun {
+  color: #292929;
+  background-color: #ffC812;
+}
+
+.theme .theme-dream {
+  color: #292929;
+  background-color: #6721ff;
+}
+
+.theme .theme-grass {
+  color: #292929;
+  background-color: #34d183;
+}
+
+.theme td {
+  height: 50px;
+  width: 33.33%;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 50px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+}
+
+.theme td:hover {
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+.theme td.selected {
+   border: 1px solid red;
+ }

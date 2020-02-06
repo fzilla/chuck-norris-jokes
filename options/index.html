@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" />
+    <title>Options</title>
+  </head>
+  <body>
+    <div class="theme">
+      <table>
+        <tr>
+          <td class="theme-moon" data-theme="moon">Moon</td>
+          <td class="theme-light" data-theme="light">Light</td>
+          <td class="theme-dark" data-theme="dark">Dark</td>
+        </tr>
+        <tr>
+          <td class="theme-sun" data-theme="sun">Sun</td>
+          <td class="theme-dream" data-theme="dream">Dream</td>
+          <td class="theme-grass" data-theme="grass">Grass</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section quoting">
+      Set
+      <select class="select-quoting">
+        <option value="none">nothing</option>
+        <option value="single">single quotes</option>
+        <option value="double">double quotes</option>
+      </select>
+      before and after the quotation.
+    </div>
+
+    <hr style="display: none"/>
+
+    <div class="section category" style="display: none">
+      Get jokes from
+      <select class="select-category"></select>
+      Category
+    </div>
+
+    <hr/>
+
+    <div class="section info">
+      Press <kbd>r</kbd> to get a new quote.<br>
+      Press <kbd>o</kbd> to display this options page.<br>
+      <kbd>Double Click</kbd> to copy the current joke.
+    </div>
+
+    <hr/>
+
+    <div class="section references">
+      Jokes from <a href="https://api.chucknorris.io/">api.chucknorris.io</a><br>
+      Inspired from <a href="https://addons.mozilla.org/en-US/firefox/addon/developer-excuses/">Developer Excuses</a>
+      Logo Image from <a href="https://www.pngkit.com/">pngkit.com</a>
+    </div>
+
+    <hr/>
+
+    <div class="status"></div>
+
+    <script src="../browser-polyfill.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
