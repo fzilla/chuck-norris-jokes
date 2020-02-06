@@ -87,7 +87,7 @@ function setJoke(text) {
 function copyJoke() {
     if (!current_joke) return;
 
-    document.getElementById('input_joke').select();
+    document.querySelector('.input_joke').select();
     document.execCommand("copy");
 }
 

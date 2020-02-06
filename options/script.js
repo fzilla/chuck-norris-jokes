@@ -49,7 +49,7 @@ function loadCategory() {
                 html += `<option>${v}</option>`;
             });
 
-            el_category.innerHTML = html;
+            // el_category.innerHTML = html;
             el_category.value = settings.category;
         })
 }
@@ -71,7 +71,7 @@ function loadSettings() {
 
 loadSettings()
     .finally(() => {
-        loadCategory();
+        // loadCategory();
         loadQuoting();
     });
 

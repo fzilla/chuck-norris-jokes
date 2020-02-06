@@ -9,8 +9,7 @@
 	},
 	"browser_specific_settings": {
 		"gecko": {
-			"id": "chuck-norris-jokes@yalini.yalu",
-			"strict_min_version": "42.0"
+			"id": "chuck-norris-jokes@yalini.yalu"
 		}
 	},
 	"options_ui": {
